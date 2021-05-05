@@ -1,0 +1,77 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1617090211184' stop='1617090224273'>
+    <name>Home Page Validations</name>
+    <title>Home Page Validations</title>
+    <test-cases>
+        <test-case start='1617090211185' status='passed' stop='1617090224173'>
+            <name>Validate the Home Page Headers</name>
+            <title>Validate the Home Page Headers</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.90'/>
+            </parameters>
+            <steps>
+                <step start='1617090211330' status='passed' stop='1617090224042'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='66b844b0-90cc-41ef-8018-fcd7ac9aeff6-attachment.json' type='application/json' size='42'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1617090224045' status='passed' stop='1617090224089'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='2e3b5ded-3fec-4674-8f7a-1e3a7f0ea555-attachment.json' type='application/json' size='59'/>
+                        <attachment title='Response' source='8e8d23a8-9814-4d62-9c5b-9affc675433a-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1617090224105' status='passed' stop='1617090224171'>
+                    <name>GET /session/:sessionId/element/300a4816-9944-46ef-b4a4-04a1d82f7121/text</name>
+                    <title>GET /session/:sessionId/element/300a4816-9944-46ef-b4a4-04a1d82f7121/text</title>
+                    <attachments>
+                        <attachment title='Response' source='9bde3342-301a-432d-93d5-a5c47fe9d5ee-attachment.json' type='application/json' size='48'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1617090224173' status='passed' stop='1617090224272'>
+            <name>Validate the Home Page Sub Headers</name>
+            <title>Validate the Home Page Sub Headers</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.90'/>
+            </parameters>
+            <steps>
+                <step start='1617090224175' status='passed' stop='1617090224233'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='f07404c2-8cae-4a20-898a-da07dbcc633a-attachment.json' type='application/json' size='96'/>
+                        <attachment title='Response' source='03ec536c-96f7-4510-bd59-ae1a5483e702-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1617090224242' status='passed' stop='1617090224272'>
+                    <name>GET /session/:sessionId/element/fe8724b2-7e31-46e2-abdd-aef050526456/text</name>
+                    <title>GET /session/:sessionId/element/fe8724b2-7e31-46e2-abdd-aef050526456/text</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

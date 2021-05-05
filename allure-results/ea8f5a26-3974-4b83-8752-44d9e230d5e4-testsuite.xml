@@ -1,0 +1,81 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1618163677720' stop='1618163739768'>
+    <name>Validate the Select By Value option</name>
+    <title>Validate the Select By Value option</title>
+    <test-cases>
+        <test-case start='1618163677721' status='broken' stop='1618163739766'>
+            <name>Select value for the facebook sign up page </name>
+            <title>Select value for the facebook sign up page </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps>
+                <step start='1618163677877' status='passed' stop='1618163679054'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='690efa18-b73d-4788-a8d5-e5d3dbb04bbe-attachment.json' type='application/json' size='40'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1618163679055' status='passed' stop='1618163679074'>
+                    <name>DELETE /session/:sessionId/cookie</name>
+                    <title>DELETE /session/:sessionId/cookie</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618163679074' status='passed' stop='1618163679237'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='9b81af75-aa07-4f39-8721-7247aa8cc588-attachment.json' type='application/json' size='59'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1618163739244' status='broken' stop='1618163739766'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='9c887ea2-1d2c-4e37-ad3d-ec7d1067c5ae-attachment.json' type='application/json' size='67'/>
+                    </attachments>
+                    <steps>
+                        <step start='1618163739344' status='passed' stop='1618163739764'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='33d283e2-41b8-486f-8fa6-e60e1c54a013-attachment.png' type='image/png' size='81245'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>invalid selector: Unable to locate an element with the xpath expression //button[text()='Accept All')] because of the following error:
+                SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[text()='Accept All')]' is not a valid XPath expression.
+                  (Session info: chrome=89.0.4389.114)</message>
+                <stack-trace>invalid selector: Unable to locate an element with the xpath expression //button[text()='Accept All')] because of the following error:
+                SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//button[text()='Accept All')]' is not a valid XPath expression.
+                  (Session info: chrome=89.0.4389.114)
+                    at Object.getErrorFromResponseBody (C:\KrishnaData\WebDriverIO\node_modules\webdriver\build\utils.js:189:12)
+                    at WebDriverRequest._request (C:\KrishnaData\WebDriverIO\node_modules\webdriver\build\request.js:168:31)
+                    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+                    at async Browser.$ (C:\KrishnaData\WebDriverIO\node_modules\webdriverio\build\commands\browser\$.js:68:17)
+                    at async Browser.runCommandWithHooks (C:\KrishnaData\WebDriverIO\node_modules\@wdio\sync\build\wrapCommand.js:105:25)
+                    at Browser.runCommandWithHooks (C:\KrishnaData\WebDriverIO\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+                    at Browser.wrapCommandFn (C:\KrishnaData\WebDriverIO\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+                    at global.$ (C:\KrishnaData\WebDriverIO\node_modules\@wdio\runner\build\index.js:181:42)
+                    at faceBookPage.get acceptAllcookies [as acceptAllcookies] (C:\KrishnaData\WebDriverIO\test\pageobjects\facebookPage.js:25:16)
+                    at Context.&lt;anonymous> (C:\KrishnaData\WebDriverIO\test\specs\FacebookPage\facebookPageSelect.js:10:22)
+                    at Context.executeSync (C:\KrishnaData\WebDriverIO\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\KrishnaData\WebDriverIO\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

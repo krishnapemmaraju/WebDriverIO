@@ -1,0 +1,86 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1620237155681' stop='1620237162433'>
+    <name>Scenario for Java Script alerts </name>
+    <title>Scenario for Java Script alerts </title>
+    <test-cases>
+        <test-case start='1620237155682' status='broken' stop='1620237162431'>
+            <name>Click on JS Alert</name>
+            <title>Click on JS Alert</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps>
+                <step start='1620237155829' status='passed' stop='1620237158807'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='e5993176-388d-4a50-bc5e-ebd41c702ee2-attachment.json' type='application/json' size='50'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1620237158808' status='passed' stop='1620237158961'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='cad38dd8-03a8-4c75-8463-5273e1181c1e-attachment.json' type='application/json' size='59'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1620237161970' status='passed' stop='1620237162187'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='5fbf830f-70b5-4961-b535-5f275ce7347c-attachment.json' type='application/json' size='58'/>
+                        <attachment title='Response' source='36abcf8f-7149-4bf9-af63-bbb2635abbc9-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1620237162200' status='passed' stop='1620237162226'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='ea83d34a-7178-4583-8406-c9f0ed316f0c-attachment.json' type='application/json' size='76'/>
+                        <attachment title='Response' source='572db630-5958-4932-bc5c-4425d7f25553-attachment.json' type='application/json' size='1155'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1620237162230' status='broken' stop='1620237162431'>
+                    <name>POST /session/:sessionId/alert/accept</name>
+                    <title>POST /session/:sessionId/alert/accept</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1620237162248' status='passed' stop='1620237162429'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='05b2d0e2-9d4c-4aaa-8552-ab95dac40c82-attachment.png' type='image/png' size='72500'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such alert
+                  (Session info: chrome=90.0.4430.93)</message>
+                <stack-trace>no such alert
+                  (Session info: chrome=90.0.4430.93)
+                    at Object.getErrorFromResponseBody (C:\KrishnaData\WebDriverIO\node_modules\webdriver\build\utils.js:189:12)
+                    at WebDriverRequest._request (C:\KrishnaData\WebDriverIO\node_modules\webdriver\build\request.js:168:31)
+                    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+                    at async Browser.runCommandWithHooks (C:\KrishnaData\WebDriverIO\node_modules\@wdio\sync\build\wrapCommand.js:105:25)
+                    at Browser.runCommandWithHooks (C:\KrishnaData\WebDriverIO\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+                    at Browser.wrapCommandFn (C:\KrishnaData\WebDriverIO\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+                    at Context.&lt;anonymous> (C:\KrishnaData\WebDriverIO\test\specs\InternetPages\ClickOnJavaScriptAlerts.js:11:16)
+                    at Context.executeSync (C:\KrishnaData\WebDriverIO\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\KrishnaData\WebDriverIO\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

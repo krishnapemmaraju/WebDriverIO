@@ -1,0 +1,102 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1620250115985' stop='1620250119933'>
+    <name>Test for Wait For Enabled task</name>
+    <title>Test for Wait For Enabled task</title>
+    <test-cases>
+        <test-case start='1620250115986' status='failed' stop='1620250119932'>
+            <name>wait for enabled</name>
+            <title>wait for enabled</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps>
+                <step start='1620250116032' status='passed' stop='1620250119095'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='e03a5d92-cc4d-4b83-92d1-ee1e98cb5d13-attachment.json' type='application/json' size='51'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1620250119096' status='passed' stop='1620250119318'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='d319db62-e8f8-4685-a30d-2b7438477b68-attachment.json' type='application/json' size='59'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1620250119321' status='passed' stop='1620250119375'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='81de8c9a-b883-4968-acf4-c69c707ab593-attachment.json' type='application/json' size='68'/>
+                        <attachment title='Response' source='065418c3-b296-4cd3-ad40-0768b12808d0-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1620250119392' status='passed' stop='1620250119509'>
+                    <name>POST /session/:sessionId/element/749bef82-5979-4aee-8b7b-5430215dcec5/click</name>
+                    <title>POST /session/:sessionId/element/749bef82-5979-4aee-8b7b-5430215dcec5/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620250119510' status='passed' stop='1620250119543'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='a9a79a78-e5b4-414f-b3ea-a2f6ef88bd0f-attachment.json' type='application/json' size='70'/>
+                        <attachment title='Response' source='39016ee8-07a9-45f6-8399-5a3ccd17f80f-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1620250119553' status='passed' stop='1620250119584'>
+                    <name>GET /session/:sessionId/element/d048b36a-ff8f-4cb4-a406-31cc0e3f1f12/enabled</name>
+                    <title>GET /session/:sessionId/element/d048b36a-ff8f-4cb4-a406-31cc0e3f1f12/enabled</title>
+                    <attachments>
+                        <attachment title='Response' source='1b49afbc-e628-447b-996a-8757d5b0e855-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1620250119585' status='passed' stop='1620250119606'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='1c0018fd-6700-4387-a3bb-5de7e7b841fd-attachment.json' type='application/json' size='70'/>
+                        <attachment title='Response' source='3cb0f433-ab60-4431-93fc-c97ad85f0dfc-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1620250119612' status='passed' stop='1620250119637'>
+                    <name>GET /session/:sessionId/element/d048b36a-ff8f-4cb4-a406-31cc0e3f1f12/enabled</name>
+                    <title>GET /session/:sessionId/element/d048b36a-ff8f-4cb4-a406-31cc0e3f1f12/enabled</title>
+                    <attachments>
+                        <attachment title='Response' source='f3b6dcd1-1165-41e0-8de6-9605d0436356-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1620250119641' status='passed' stop='1620250119930'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='7c4660d5-da52-4cfc-99d1-bf0e10d114b8-attachment.png' type='image/png' size='43856'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expected false to equal true</message>
+                <stack-trace>AssertionError: expected false to equal true
+                    at Context.&lt;anonymous> (C:\KrishnaData\WebDriverIO\test\specs\ScrollIntoView\crmproWaitForEnabled.js:11:19)
+                    at Context.executeSync (C:\KrishnaData\WebDriverIO\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\KrishnaData\WebDriverIO\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

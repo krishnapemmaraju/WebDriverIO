@@ -1,0 +1,85 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1618162721049' stop='1618162788930'>
+    <name>Validate the Select By Value option</name>
+    <title>Validate the Select By Value option</title>
+    <test-cases>
+        <test-case start='1618162721050' status='broken' stop='1618162788928'>
+            <name>Select value for the facebook sign up page </name>
+            <title>Select value for the facebook sign up page </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps>
+                <step start='1618162721229' status='passed' stop='1618162723304'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='b7b42637-2e4f-4a29-9699-c2bf730aa12f-attachment.json' type='application/json' size='40'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1618162723305' status='passed' stop='1618162723345'>
+                    <name>DELETE /session/:sessionId/cookie</name>
+                    <title>DELETE /session/:sessionId/cookie</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618162723346' status='passed' stop='1618162723528'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='667b8917-d02d-486a-9de5-d7d23fbfcabf-attachment.json' type='application/json' size='59'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1618162783562' status='passed' stop='1618162783664'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='f2576c9c-9886-4ff1-a97c-f512d2733715-attachment.json' type='application/json' size='59'/>
+                        <attachment title='Response' source='e40c6e72-88cd-4a4a-81c7-3b7ff9d316c2-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1618162783679' status='broken' stop='1618162788928'>
+                    <name>POST /session/:sessionId/element/ce30b5e9-178d-4f99-b2f8-cdc40bde7e6b/click</name>
+                    <title>POST /session/:sessionId/element/ce30b5e9-178d-4f99-b2f8-cdc40bde7e6b/click</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1618162788537' status='passed' stop='1618162788926'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='4d79327f-f0c8-416b-a945-22f3ab640e36-attachment.png' type='image/png' size='57619'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element click intercepted: Element &lt;a role="button" class="_42ft _4jy0 _6lti _4jy6 _4jy2 selected _51sy" href="#" ajaxify="/reg/spotlight/" id="u_0_2_mq" data-testid="open-registration-form-button" rel="async">...&lt;/a> is not clickable at point (1239, 433). Other element would receive the click: &lt;div class="_3ixn">&lt;/div>
+                  (Session info: chrome=89.0.4389.114)</message>
+                <stack-trace>element click intercepted: Element &lt;a role="button" class="_42ft _4jy0 _6lti _4jy6 _4jy2 selected _51sy" href="#" ajaxify="/reg/spotlight/" id="u_0_2_mq" data-testid="open-registration-form-button" rel="async">...&lt;/a> is not clickable at point (1239, 433). Other element would receive the click: &lt;div class="_3ixn">&lt;/div>
+                  (Session info: chrome=89.0.4389.114)
+                    at Object.getErrorFromResponseBody (C:\KrishnaData\WebDriverIO\node_modules\webdriver\build\utils.js:189:12)
+                    at WebDriverRequest._request (C:\KrishnaData\WebDriverIO\node_modules\webdriver\build\request.js:168:31)
+                    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+                    at async Element.elementErrorHandlerCallbackFn (C:\KrishnaData\WebDriverIO\node_modules\webdriverio\build\middlewares.js:23:32)
+                    at async Element.runCommandWithHooks (C:\KrishnaData\WebDriverIO\node_modules\@wdio\sync\build\wrapCommand.js:105:25)
+                    at Element.runCommandWithHooks (C:\KrishnaData\WebDriverIO\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+                    at Element.wrapCommandFn (C:\KrishnaData\WebDriverIO\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+                    at Element.elementErrorHandlerCallback (C:\KrishnaData\WebDriverIO\node_modules\webdriverio\build\middlewares.js:44:12)
+                    at Context.&lt;anonymous> (C:\KrishnaData\WebDriverIO\test\specs\FacebookPage\facebookPageSelect.js:10:43)
+                    at Context.executeSync (C:\KrishnaData\WebDriverIO\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\KrishnaData\WebDriverIO\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

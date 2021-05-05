@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"div#elements>button.added-manually\"}\n  (Session info: chrome=90.0.4430.93)",
+  "stacktrace": "Backtrace:\n\tOrdinal0 [0x0042E7D3+124883]\n\tOrdinal0 [0x0042E7B1+124849]\n\tGetHandleVerifier [0x00678688+193832]\n\tGetHandleVerifier [0x0069C478+340760]\n\tGetHandleVerifier [0x006BEE42+482530]\n\tGetHandleVerifier [0x006B16BA+427354]\n\tGetHandleVerifier [0x006BD6EB+476555]\n\tGetHandleVerifier [0x006B154B+426987]\n\tGetHandleVerifier [0x00694FFD+310941]\n\tGetHandleVerifier [0x00695D8E+314414]\n\tGetHandleVerifier [0x00695D19+314297]\n\tGetHandleVerifier [0x007531EC+1089676]\n\tGetHandleVerifier [0x007517C9+1082985]\n\tGetHandleVerifier [0x007513A3+1081923]\n\tGetHandleVerifier [0x0084D9FD+2115741]\n\tOrdinal0 [0x0057B82E+1488942]\n\tOrdinal0 [0x00515A7D+1071741]\n\tOrdinal0 [0x0051559B+1070491]\n\tOrdinal0 [0x005154B1+1070257]\n\tOrdinal0 [0x0054FF53+1310547]\n\tBaseThreadInitThunk [0x76C1FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x76ED7A4E+286]\n\tRtlGetAppContainerNamedObjectPath [0x76ED7A1E+238]\n"
+}

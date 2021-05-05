@@ -1,0 +1,76 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1617028903454' stop='1617028920176'>
+    <name>Interaction with Web Elements</name>
+    <title>Interaction with Web Elements</title>
+    <test-cases>
+        <test-case start='1617028903455' status='broken' stop='1617028920174'>
+            <name>Get Text from base URL</name>
+            <title>Get Text from base URL</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.90'/>
+            </parameters>
+            <steps>
+                <step start='1617028903786' status='passed' stop='1617028912779'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='109f6e62-462d-4f9b-8958-084eb65a6df3-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1617028912779' status='passed' stop='1617028913452'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='063613fe-f733-4d7b-95e0-a31c5a6bb990-attachment.json' type='application/json' size='59'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1617028913454' status='passed' stop='1617028913850'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='b47aa837-1c18-4177-8a4b-605178403d0d-attachment.json' type='application/json' size='64'/>
+                        <attachment title='Response' source='e5db422f-40c1-44af-823e-f8ec487fd980-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1617028913869' status='passed' stop='1617028914165'>
+                    <name>POST /session/:sessionId/element/ce5525b4-c48d-467e-8040-3f21264addbf/clear</name>
+                    <title>POST /session/:sessionId/element/ce5525b4-c48d-467e-8040-3f21264addbf/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1617028914174' status='passed' stop='1617028914496'>
+                    <name>POST /session/:sessionId/element/ce5525b4-c48d-467e-8040-3f21264addbf/value</name>
+                    <title>POST /session/:sessionId/element/ce5525b4-c48d-467e-8040-3f21264addbf/value</title>
+                    <attachments>
+                        <attachment title='Request' source='61f625a9-1de5-4dd8-88ca-48101aaed737-attachment.json' type='application/json' size='25'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1617028919501' status='passed' stop='1617028920172'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='75f7b49f-383d-4923-bed9-2cc866abd521-attachment.png' type='image/png' size='383998'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>myChromeBrowser is not defined</message>
+                <stack-trace>ReferenceError: myChromeBrowser is not defined
+                    at Context.&lt;anonymous> (C:\KrishnaData\WebDriverIO\test\specs\element.js:8:37)
+                    at Context.executeSync (C:\KrishnaData\WebDriverIO\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\KrishnaData\WebDriverIO\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

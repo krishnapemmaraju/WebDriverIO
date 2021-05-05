@@ -1,0 +1,110 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1620252013430' stop='1620252017926'>
+    <name>Wait for the Page Exists Page </name>
+    <title>Wait for the Page Exists Page </title>
+    <test-cases>
+        <test-case start='1620252013431' status='broken' stop='1620252017925'>
+            <name>wait for the element Exists</name>
+            <title>wait for the element Exists</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps>
+                <step start='1620252013466' status='passed' stop='1620252016554'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='6bd23a24-2aed-4b6c-8159-d752b160ff7f-attachment.json' type='application/json' size='50'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1620252016555' status='passed' stop='1620252016745'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='0e7cd00f-f681-42ac-a98c-02238e96a4bc-attachment.json' type='application/json' size='59'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1620252016748' status='passed' stop='1620252016797'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='a61178a5-78a0-4f9c-9a85-4a12adf21cc6-attachment.json' type='application/json' size='76'/>
+                        <attachment title='Response' source='6c1b3a48-a202-464f-87e2-2c3a984cbeeb-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1620252016813' status='passed' stop='1620252017362'>
+                    <name>POST /session/:sessionId/element/781e863e-8841-4635-bd45-95454d2806fe/click</name>
+                    <title>POST /session/:sessionId/element/781e863e-8841-4635-bd45-95454d2806fe/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620252017363' status='passed' stop='1620252017407'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='59aabec6-99e4-4db9-99e3-aaf2e25987d8-attachment.json' type='application/json' size='62'/>
+                        <attachment title='Response' source='567ab21b-dc9b-44aa-8491-f9e94cdc938d-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1620252017417' status='passed' stop='1620252017445'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='ecf9e11f-8c54-4b63-9bcc-2c887ab8d400-attachment.json' type='application/json' size='8337'/>
+                        <attachment title='Response' source='b1949f92-c4c2-4f02-940b-77ec3bafc0bc-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1620252017446' status='passed' stop='1620252017481'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='363d14ac-0c30-4469-9ba0-b2d408e2158f-attachment.json' type='application/json' size='62'/>
+                        <attachment title='Response' source='3d795b0c-faa2-4659-8172-e28d062ad251-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1620252017487' status='passed' stop='1620252017562'>
+                    <name>POST /session/:sessionId/element/2eda4eba-12c7-497f-b3c4-ede5fc5a951f/click</name>
+                    <title>POST /session/:sessionId/element/2eda4eba-12c7-497f-b3c4-ede5fc5a951f/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620252017562' status='passed' stop='1620252017602'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='a9db48ba-2e90-4496-984d-094fdc816cef-attachment.json' type='application/json' size='78'/>
+                        <attachment title='Response' source='9c9d3a70-da76-4b56-80a8-6e659e169407-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1620252017611' status='passed' stop='1620252017923'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='27a39baa-f5fd-42b9-a2f9-6888b86d5df3-attachment.png' type='image/png' size='29407'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>wtForExists.waitForTheButtonElement.waitForExists is not a function</message>
+                <stack-trace>TypeError: wtForExists.waitForTheButtonElement.waitForExists is not a function
+                    at Context.&lt;anonymous> (C:\KrishnaData\WebDriverIO\test\specs\InternetPages\waitForExists.js:13:45)
+                    at Context.executeSync (C:\KrishnaData\WebDriverIO\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\KrishnaData\WebDriverIO\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

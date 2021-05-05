@@ -1,0 +1,83 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1620242974838' stop='1620242982167'>
+    <name>Scenario for Java Script alerts </name>
+    <title>Scenario for Java Script alerts </title>
+    <test-cases>
+        <test-case start='1620242974839' status='broken' stop='1620242981943'>
+            <name>Click on JS Alert</name>
+            <title>Click on JS Alert</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps>
+                <step start='1620242974926' status='passed' stop='1620242978479'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='ba67f2b7-c2b8-420d-b0e6-8231dc759833-attachment.json' type='application/json' size='50'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1620242978480' status='passed' stop='1620242978684'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='3a6c18da-f34f-46ee-9dd1-f53d8edda075-attachment.json' type='application/json' size='59'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1620242981702' status='passed' stop='1620242981939'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='5d66174d-2710-4b47-81e4-fbeab87f82d1-attachment.png' type='image/png' size='72500'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>javaScriptAlerts.clickOnJavaScriptAlerts.click is not a function</message>
+                <stack-trace>TypeError: javaScriptAlerts.clickOnJavaScriptAlerts.click is not a function
+                    at Context.&lt;anonymous> (C:\KrishnaData\WebDriverIO\test\specs\InternetPages\ClickOnJavaScriptAlerts.js:10:49)
+                    at Context.executeSync (C:\KrishnaData\WebDriverIO\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\KrishnaData\WebDriverIO\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1620242981944' status='broken' stop='1620242982165'>
+            <name>dismiss alert</name>
+            <title>dismiss alert</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps>
+                <step start='1620242981946' status='passed' stop='1620242982164'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='5f837547-979f-436f-9eff-321671c25125-attachment.png' type='image/png' size='72500'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>javaScriptAlerts.clickOnJavaScriptAlerts.click is not a function</message>
+                <stack-trace>TypeError: javaScriptAlerts.clickOnJavaScriptAlerts.click is not a function
+                    at Context.&lt;anonymous> (C:\KrishnaData\WebDriverIO\test\specs\InternetPages\ClickOnJavaScriptAlerts.js:19:50)
+                    at Context.executeSync (C:\KrishnaData\WebDriverIO\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\KrishnaData\WebDriverIO\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

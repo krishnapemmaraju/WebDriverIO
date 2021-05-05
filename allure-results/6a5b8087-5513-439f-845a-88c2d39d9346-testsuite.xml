@@ -1,0 +1,86 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1618154307158' stop='1618154311658'>
+    <name>Validating drag and drop functionality</name>
+    <title>Validating drag and drop functionality</title>
+    <test-cases>
+        <test-case start='1618154307158' status='broken' stop='1618154311656'>
+            <name>drag and drop an element to target box</name>
+            <title>drag and drop an element to target box</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps>
+                <step start='1618154307218' status='passed' stop='1618154309790'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='8d76d58b-1004-4ea4-854b-299a217b5630-attachment.json' type='application/json' size='36'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1618154309791' status='passed' stop='1618154309938'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='4cbb8d7c-552e-4575-94ba-82c174a1a810-attachment.json' type='application/json' size='59'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1618154309940' status='passed' stop='1618154310043'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='a9057aeb-2004-455f-8761-addbd055984c-attachment.json' type='application/json' size='50'/>
+                        <attachment title='Response' source='7b1e7e6a-1f92-4b3a-8276-1b6ded90934d-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1618154310059' status='passed' stop='1618154311062'>
+                    <name>POST /session/:sessionId/element/7428f25b-07c7-4982-8bc4-d3f49ff35cd4/click</name>
+                    <title>POST /session/:sessionId/element/7428f25b-07c7-4982-8bc4-d3f49ff35cd4/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618154311064' status='passed' stop='1618154311109'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='2deac6dc-5a55-4ade-a954-b50dced41659-attachment.json' type='application/json' size='98'/>
+                        <attachment title='Response' source='73a67bba-099a-4633-b307-2668b10611fe-attachment.json' type='application/json' size='1178'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1618154311119' status='passed' stop='1618154311174'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='344a28d6-095f-4a2e-88a2-78b1beb17865-attachment.json' type='application/json' size='77'/>
+                        <attachment title='Response' source='29602f36-de9d-4846-bb16-0f4ecacfea8f-attachment.json' type='application/json' size='1157'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1618154311179' status='passed' stop='1618154311654'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='89520894-249b-482b-be60-93361b876d46-attachment.png' type='image/png' size='178077'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>draganddrop.getSourceElement.drangAndDrop is not a function</message>
+                <stack-trace>TypeError: draganddrop.getSourceElement.drangAndDrop is not a function
+                    at Context.&lt;anonymous> (C:\KrishnaData\WebDriverIO\test\specs\JQueryUI\DrangAndDrop.js:10:40)
+                    at Context.executeSync (C:\KrishnaData\WebDriverIO\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\KrishnaData\WebDriverIO\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

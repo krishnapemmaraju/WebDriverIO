@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1617092406660' stop='1617092425264'>
+    <name>Checking on $$ function</name>
+    <title>Checking on $$ function</title>
+    <test-cases>
+        <test-case start='1617092406661' status='broken' stop='1617092425263'>
+            <name>get text of Li elements</name>
+            <title>get text of Li elements</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.90'/>
+            </parameters>
+            <steps>
+                <step start='1617092406829' status='passed' stop='1617092419677'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='68cbfc6a-e5b5-48d3-b5ed-929024360c69-attachment.json' type='application/json' size='42'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1617092424688' status='passed' stop='1617092425261'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='0b87267f-4b8b-462a-a3b7-fd0c870b1066-attachment.png' type='image/png' size='204706'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>this.getParentTag.$$ is not a function</message>
+                <stack-trace>TypeError: this.getParentTag.$$ is not a function
+                    at Blazemeter.get childElements [as childElements] (C:\KrishnaData\WebDriverIO\test\pageobjects\blazemeter.js:8:34)
+                    at Blazemeter.get getTextFromChildElements [as getTextFromChildElements] (C:\KrishnaData\WebDriverIO\test\pageobjects\blazemeter.js:12:20)
+                    at Context.&lt;anonymous> (C:\KrishnaData\WebDriverIO\test\specs\BlazemeterHomePage\blazemeter.page.js:8:31)
+                    at Context.executeSync (C:\KrishnaData\WebDriverIO\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\KrishnaData\WebDriverIO\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

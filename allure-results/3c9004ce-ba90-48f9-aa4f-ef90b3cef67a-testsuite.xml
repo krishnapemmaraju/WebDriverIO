@@ -1,0 +1,37 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1618041090619' stop='1618041091187'>
+    <name>Test for Mouse Move Actions</name>
+    <title>Test for Mouse Move Actions</title>
+    <test-cases>
+        <test-case start='1618041090619' status='broken' stop='1618041091185'>
+            <name>mouse move actions on Spice jet sign up pages</name>
+            <title>mouse move actions on Spice jet sign up pages</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps>
+                <step start='1618041090877' status='passed' stop='1618041091183'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='a0848316-a718-4133-b201-5b00f645996a-attachment.png' type='image/png' size='5205'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>browser.Url is not a function</message>
+                <stack-trace>TypeError: browser.Url is not a function
+                    at Context.&lt;anonymous> (C:\KrishnaData\WebDriverIO\test\specs\SpiceJetMouseMove\spiceJetMouseMove.js:7:16)
+                    at Context.executeSync (C:\KrishnaData\WebDriverIO\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\KrishnaData\WebDriverIO\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

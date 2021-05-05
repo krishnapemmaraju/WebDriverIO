@@ -1,0 +1,106 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1620237328661' stop='1620237336117'>
+    <name>Scenario for Java Script alerts </name>
+    <title>Scenario for Java Script alerts </title>
+    <test-cases>
+        <test-case start='1620237328662' status='broken' stop='1620237336114'>
+            <name>Click on JS Alert</name>
+            <title>Click on JS Alert</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps>
+                <step start='1620237328715' status='passed' stop='1620237331951'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='b0914e2a-b38a-47aa-b48d-35eaf0edb782-attachment.json' type='application/json' size='50'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1620237331952' status='passed' stop='1620237332208'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='6ceb0a44-f8e0-4fe4-bc52-095526d65930-attachment.json' type='application/json' size='59'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1620237335214' status='passed' stop='1620237335261'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='17f3bd5f-83df-4965-8944-4185128ac660-attachment.json' type='application/json' size='58'/>
+                        <attachment title='Response' source='535ca00b-eb0b-481b-ad11-a6da23e20e5c-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1620237335273' status='passed' stop='1620237335632'>
+                    <name>POST /session/:sessionId/element/c7069181-50b5-457e-a70b-5856e6da4453/click</name>
+                    <title>POST /session/:sessionId/element/c7069181-50b5-457e-a70b-5856e6da4453/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620237335632' status='passed' stop='1620237335660'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='d53d911a-1d1f-432b-a449-27e97646ea2b-attachment.json' type='application/json' size='76'/>
+                        <attachment title='Response' source='485156e9-1144-4762-959c-834cf94ee0b1-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1620237335670' status='passed' stop='1620237335726'>
+                    <name>POST /session/:sessionId/element/5878b2a6-1ddb-407b-81b1-0f1b44617bf2/click</name>
+                    <title>POST /session/:sessionId/element/5878b2a6-1ddb-407b-81b1-0f1b44617bf2/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620237335726' status='passed' stop='1620237335732'>
+                    <name>POST /session/:sessionId/alert/accept</name>
+                    <title>POST /session/:sessionId/alert/accept</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620237335733' status='passed' stop='1620237335766'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='b28a28db-0478-4551-80cf-9b742a90ad7b-attachment.json' type='application/json' size='51'/>
+                        <attachment title='Response' source='1e3aee13-f2f1-4797-8684-b7a99ba87485-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1620237335772' status='passed' stop='1620237335801'>
+                    <name>GET /session/:sessionId/element/6c52d75d-3726-455c-b43d-6ef34582c934/text</name>
+                    <title>GET /session/:sessionId/element/6c52d75d-3726-455c-b43d-6ef34582c934/text</title>
+                    <attachments>
+                        <attachment title='Response' source='92e944f7-f771-404a-a199-caa26107d077-attachment.json' type='application/json' size='35'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1620237335804' status='passed' stop='1620237336112'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='f15bba8b-549a-4462-98c9-e732e4581a37-attachment.png' type='image/png' size='39579'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Assertion.equals is not a function</message>
+                <stack-trace>TypeError: Assertion.equals is not a function
+                    at Context.&lt;anonymous> (C:\KrishnaData\WebDriverIO\test\specs\InternetPages\ClickOnJavaScriptAlerts.js:15:18)
+                    at Context.executeSync (C:\KrishnaData\WebDriverIO\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\KrishnaData\WebDriverIO\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,131 @@
+{
+  "id": {
+    "sessionId": "95a2e8252e47870462e1cd5e9bdf4c31",
+    "elementId": "a3588006-e574-460e-9598-b6457447ebc4",
+    "element-6066-11e4-a52e-4f735466cecf": "a3588006-e574-460e-9598-b6457447ebc4",
+    "selector": "//iframe[@class='demo-frame']",
+    "parent": {
+      "sessionId": "95a2e8252e47870462e1cd5e9bdf4c31",
+      "capabilities": {
+        "acceptInsecureCerts": true,
+        "browserName": "chrome",
+        "browserVersion": "89.0.4389.114",
+        "chrome": {
+          "chromedriverVersion": "89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294})",
+          "userDataDir": "C:\\Users\\ABB7375\\AppData\\Local\\Temp\\scoped_dir32164_472665555"
+        },
+        "goog:chromeOptions": {
+          "debuggerAddress": "localhost:64691"
+        },
+        "networkConnectionEnabled": false,
+        "pageLoadStrategy": "normal",
+        "platformName": "windows",
+        "proxy": {},
+        "setWindowRect": true,
+        "strictFileInteractability": false,
+        "timeouts": {
+          "implicit": 0,
+          "pageLoad": 300000,
+          "script": 30000
+        },
+        "unhandledPromptBehavior": "dismiss and notify",
+        "webauthn:extension:largeBlob": true,
+        "webauthn:virtualAuthenticators": true
+      },
+      "config": {
+        "specs": [
+          "C:\\KrishnaData\\WebDriverIO\\test\\specs\\JQueryUI\\DrangAndDrop.js"
+        ],
+        "suites": {},
+        "exclude": [],
+        "logLevel": "silent",
+        "logLevels": {},
+        "excludeDriverLogs": [],
+        "bail": 0,
+        "waitforInterval": 500,
+        "waitforTimeout": 10000,
+        "framework": "mocha",
+        "reporters": [
+          "spec",
+          [
+            "allure",
+            {
+              "outputDir": "allure-results"
+            }
+          ]
+        ],
+        "services": [
+          "chromedriver"
+        ],
+        "maxInstances": 10,
+        "maxInstancesPerCapability": 100,
+        "filesToWatch": [],
+        "connectionRetryTimeout": 120000,
+        "connectionRetryCount": 3,
+        "execArgv": [],
+        "runnerEnv": {},
+        "runner": "local",
+        "specFileRetries": 0,
+        "specFileRetriesDelay": 0,
+        "specFileRetriesDeferred": false,
+        "reporterSyncInterval": 100,
+        "reporterSyncTimeout": 5000,
+        "cucumberFeaturesWithLineNumbers": [],
+        "autoCompileOpts": {
+          "autoCompile": true,
+          "tsNodeOpts": {
+            "transpileOnly": true
+          },
+          "babelOpts": {}
+        },
+        "mochaOpts": {
+          "timeout": 160000,
+          "ui": "bdd"
+        },
+        "jasmineOpts": {
+          "defaultTimeoutInterval": 10000
+        },
+        "cucumberOpts": {
+          "timeout": 10000
+        },
+        "onPrepare": [],
+        "onWorkerStart": [],
+        "before": [],
+        "beforeSession": [],
+        "beforeSuite": [],
+        "beforeHook": [],
+        "beforeTest": [
+          null
+        ],
+        "beforeCommand": [],
+        "afterCommand": [],
+        "afterTest": [
+          null
+        ],
+        "afterHook": [],
+        "afterSuite": [],
+        "afterSession": [],
+        "after": [],
+        "onComplete": [],
+        "onReload": [],
+        "beforeFeature": [],
+        "beforeScenario": [],
+        "beforeStep": [],
+        "afterStep": [],
+        "afterScenario": [],
+        "afterFeature": [],
+        "baseUrl": "https://www.amazon.com/",
+        "_": [
+          "./wdio.conf.js"
+        ],
+        "spec": [
+          "./test/specs/JQueryUI/DrangAndDrop.js"
+        ],
+        "$0": "node_modules\\@wdio\\cli\\bin\\wdio.js",
+        "ignoredWorkerServices": []
+      },
+      "_NOT_FIBER": true
+    },
+    "isReactElement": false
+  }
+}

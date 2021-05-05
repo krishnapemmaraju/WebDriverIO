@@ -1,0 +1,208 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1617719043758' stop='1617719062517'>
+    <name>Checking on $$ function</name>
+    <title>Checking on $$ function</title>
+    <test-cases>
+        <test-case start='1617719043759' status='passed' stop='1617719056544'>
+            <name>get text of Li elements</name>
+            <title>get text of Li elements</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps>
+                <step start='1617719043895' status='passed' stop='1617719050886'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='695db839-45c6-497e-b5ad-4cff33c21011-attachment.json' type='application/json' size='42'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1617719050887' status='passed' stop='1617719051192'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='1fe4a50c-a3b0-4006-9c84-9bc3e5df5cfc-attachment.json' type='application/json' size='59'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1617719056201' status='passed' stop='1617719056229'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='52aec8bb-c452-43f2-8b66-eacc6bdd4a15-attachment.json' type='application/json' size='61'/>
+                        <attachment title='Response' source='352e2fda-3af6-4af8-b349-2cff184087b2-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1617719056240' status='passed' stop='1617719056288'>
+                    <name>POST /session/:sessionId/element/bb8ad256-1a73-41e1-b89c-d4e796a6d1e7/elements</name>
+                    <title>POST /session/:sessionId/element/bb8ad256-1a73-41e1-b89c-d4e796a6d1e7/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='160d6872-6d7b-468f-9588-1d145a1ec6e1-attachment.json' type='application/json' size='46'/>
+                        <attachment title='Response' source='ae2e0a28-6fee-49d6-8e7c-aac2271aa6ae-attachment.json' type='application/json' size='639'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1617719056304' status='passed' stop='1617719056352'>
+                    <name>GET /session/:sessionId/element/c3b3f305-2822-4d3a-9c9f-baa75a6423d9/text</name>
+                    <title>GET /session/:sessionId/element/c3b3f305-2822-4d3a-9c9f-baa75a6423d9/text</title>
+                    <attachments>
+                        <attachment title='Response' source='36315c24-25c9-4e8d-b88a-cb2d47a373c8-attachment.json' type='application/json' size='9'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1617719056353' status='passed' stop='1617719056382'>
+                    <name>GET /session/:sessionId/element/c9ae83bc-a192-4c5f-acf5-d39cf23e634c/text</name>
+                    <title>GET /session/:sessionId/element/c9ae83bc-a192-4c5f-acf5-d39cf23e634c/text</title>
+                    <attachments>
+                        <attachment title='Response' source='05fcf91d-f1dc-4ec8-8e37-75405e94ec97-attachment.json' type='application/json' size='11'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1617719056383' status='passed' stop='1617719056419'>
+                    <name>GET /session/:sessionId/element/8a29ae20-c743-4a95-9e14-50ba900d7893/text</name>
+                    <title>GET /session/:sessionId/element/8a29ae20-c743-4a95-9e14-50ba900d7893/text</title>
+                    <attachments>
+                        <attachment title='Response' source='68342c5f-1662-4db1-a6ef-8fe40f7ee4a2-attachment.json' type='application/json' size='11'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1617719056419' status='passed' stop='1617719056446'>
+                    <name>GET /session/:sessionId/element/05a6a3a5-beec-4a04-8519-29ec51cb99d1/text</name>
+                    <title>GET /session/:sessionId/element/05a6a3a5-beec-4a04-8519-29ec51cb99d1/text</title>
+                    <attachments>
+                        <attachment title='Response' source='7d647127-2344-4e06-be21-e96f4288529f-attachment.json' type='application/json' size='6'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1617719056447' status='passed' stop='1617719056480'>
+                    <name>GET /session/:sessionId/element/0f20d358-8a55-46c7-8761-92a2b970b16d/text</name>
+                    <title>GET /session/:sessionId/element/0f20d358-8a55-46c7-8761-92a2b970b16d/text</title>
+                    <attachments>
+                        <attachment title='Response' source='66ac8b7d-bd0e-42b3-b513-ab9cea8b8de1-attachment.json' type='application/json' size='15'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1617719056480' status='passed' stop='1617719056511'>
+                    <name>GET /session/:sessionId/element/da70a5cd-912f-4d5f-adb9-d8eb2f48f318/text</name>
+                    <title>GET /session/:sessionId/element/da70a5cd-912f-4d5f-adb9-d8eb2f48f318/text</title>
+                    <attachments>
+                        <attachment title='Response' source='a111d8c6-e066-48e0-b088-00db81941679-attachment.json' type='application/json' size='15'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1617719056512' status='passed' stop='1617719056542'>
+                    <name>GET /session/:sessionId/element/4d76f580-f461-42a6-ac17-86ced9e6558d/text</name>
+                    <title>GET /session/:sessionId/element/4d76f580-f461-42a6-ac17-86ced9e6558d/text</title>
+                    <attachments>
+                        <attachment title='Response' source='2ba0335d-104c-4159-b726-51226af6ca05-attachment.json' type='application/json' size='19'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1617719056545' status='broken' stop='1617719057280'>
+            <name>Get the elements from usecase</name>
+            <title>Get the elements from usecase</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps>
+                <step start='1617719056547' status='passed' stop='1617719057278'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='ae585fba-c02f-4a31-bcfe-43471d90fb6d-attachment.png' type='image/png' size='372676'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>this.parentUsecaseUI.$$ is not a function</message>
+                <stack-trace>TypeError: this.parentUsecaseUI.$$ is not a function
+                    at blazeMeterUsecases.get childUsercasesUI [as childUsercasesUI] (C:\KrishnaData\WebDriverIO\test\pageobjects\blazemeterUsercases.js:10:38)
+                    at blazeMeterUsecases.get TextFromAlltheLi [as TextFromAlltheLi] (C:\KrishnaData\WebDriverIO\test\pageobjects\blazemeterUsercases.js:14:22)
+                    at Context.&lt;anonymous> (C:\KrishnaData\WebDriverIO\test\specs\BlazemeterHomePage\blazemeter.page.js:15:42)
+                    at Context.executeSync (C:\KrishnaData\WebDriverIO\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\KrishnaData\WebDriverIO\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1617719057280' status='broken' stop='1617719062516'>
+            <name>Get the elements from A link in LI</name>
+            <title>Get the elements from A link in LI</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps>
+                <step start='1617719057281' status='passed' stop='1617719057447'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='a9dff196-3f4f-4797-ad19-1dcce823ab90-attachment.json' type='application/json' size='79'/>
+                        <attachment title='Response' source='df8a02d2-88e2-4e9a-bc79-c8b8f9dbb3cf-attachment.json' type='application/json' size='821'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1617719057465' status='passed' stop='1617719057582'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='88385a32-b751-48c5-b21e-3092ed55910a-attachment.json' type='application/json' size='303'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1617719057583' status='broken' stop='1617719062516'>
+                    <name>POST /session/:sessionId/element/656ded54-d961-447c-942a-17dc5ee81128/click</name>
+                    <title>POST /session/:sessionId/element/656ded54-d961-447c-942a-17dc5ee81128/click</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1617719062053' status='passed' stop='1617719062515'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='7a62b213-ba2c-4c28-bd2e-be5ec0231c1a-attachment.png' type='image/png' size='240343'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element click intercepted: Element &lt;a href="/jmeter-load-testing">...&lt;/a> is not clickable at point (697, 915). Other element would receive the click: &lt;div class="optanon-clearfix optanon-alert-box-bottom-padding">&lt;/div>
+                  (Session info: chrome=89.0.4389.114)</message>
+                <stack-trace>element click intercepted: Element &lt;a href="/jmeter-load-testing">...&lt;/a> is not clickable at point (697, 915). Other element would receive the click: &lt;div class="optanon-clearfix optanon-alert-box-bottom-padding">&lt;/div>
+                  (Session info: chrome=89.0.4389.114)
+                    at Object.getErrorFromResponseBody (C:\KrishnaData\WebDriverIO\node_modules\webdriver\build\utils.js:189:12)
+                    at WebDriverRequest._request (C:\KrishnaData\WebDriverIO\node_modules\webdriver\build\request.js:168:31)
+                    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+                    at async Element.elementErrorHandlerCallbackFn (C:\KrishnaData\WebDriverIO\node_modules\webdriverio\build\middlewares.js:23:32)
+                    at async Element.runCommandWithHooks (C:\KrishnaData\WebDriverIO\node_modules\@wdio\sync\build\wrapCommand.js:105:25)
+                    at Element.runCommandWithHooks (C:\KrishnaData\WebDriverIO\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+                    at Element.wrapCommandFn (C:\KrishnaData\WebDriverIO\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+                    at Element.elementErrorHandlerCallback (C:\KrishnaData\WebDriverIO\node_modules\webdriverio\build\middlewares.js:44:12)
+                    at Context.&lt;anonymous> (C:\KrishnaData\WebDriverIO\test\specs\BlazemeterHomePage\blazemeter.page.js:25:24)
+                    at Context.executeSync (C:\KrishnaData\WebDriverIO\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\KrishnaData\WebDriverIO\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,57 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1617041019765' stop='1617041027024'>
+    <name>Home Page Validations</name>
+    <title>Home Page Validations</title>
+    <test-cases>
+        <test-case start='1617041019765' status='broken' stop='1617041027023'>
+            <name>Validate the Home Page Headers</name>
+            <title>Validate the Home Page Headers</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.90'/>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.90'/>
+            </parameters>
+            <steps>
+                <step start='1617041019982' status='passed' stop='1617041025409'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='bb8a54f5-2089-423b-9ecc-70f6cd47d627-attachment.json' type='application/json' size='42'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1617041025412' status='passed' stop='1617041026599'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='27ef6c78-86f7-45f1-8ea0-4d78b5aad176-attachment.png' type='image/png' size='242618'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1617041026603' status='passed' stop='1617041027023'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='28d93351-beec-4b63-a3fc-e7902718fdba-attachment.png' type='image/png' size='242618'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>homePage.getsubHeaderInfo.getText is not a function</message>
+                <stack-trace>TypeError: homePage.getsubHeaderInfo.getText is not a function
+                    at Context.&lt;anonymous> (C:\KrishnaData\WebDriverIO\test\specs\HomeMethods\home.page.js:14:54)
+                    at Context.executeSync (C:\KrishnaData\WebDriverIO\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\KrishnaData\WebDriverIO\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

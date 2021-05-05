@@ -1,0 +1,100 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1617788482417' stop='1617788492997'>
+    <name>Checking for checkboxes click</name>
+    <title>Checking for checkboxes click</title>
+    <test-cases>
+        <test-case start='1617788482417' status='passed' stop='1617788492108'>
+            <name>Launch the Internet Hero Home Page</name>
+            <title>Launch the Internet Hero Home Page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps>
+                <step start='1617788482641' status='passed' stop='1617788486874'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='ae8faf0d-0ad9-42e9-8587-6f0b1824e157-attachment.json' type='application/json' size='50'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1617788486875' status='passed' stop='1617788487100'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='443944cc-32b3-4150-b39b-de908fe0ba4e-attachment.json' type='application/json' size='59'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1617788492109' status='broken' stop='1617788492536'>
+            <name>Click on the checkboxes link</name>
+            <title>Click on the checkboxes link</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps>
+                <step start='1617788492112' status='passed' stop='1617788492534'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='9b52a04b-473f-4221-802e-36385e97551c-attachment.png' type='image/png' size='72500'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>this.getCheckBoxesLink(...).waitForDisplayed is not a function</message>
+                <stack-trace>TypeError: this.getCheckBoxesLink(...).waitForDisplayed is not a function
+                    at InternetPages.clickOnCheckboxLink (C:\KrishnaData\WebDriverIO\test\pageobjects\InternetPageObjects.js:10:39)
+                    at Context.&lt;anonymous> (C:\KrishnaData\WebDriverIO\test\specs\InternetPages\clickOnCheckBoxesPages.js:13:19)
+                    at Context.executeSync (C:\KrishnaData\WebDriverIO\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\KrishnaData\WebDriverIO\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1617788492536' status='broken' stop='1617788492995'>
+            <name>click on the checkbox</name>
+            <title>click on the checkbox</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps>
+                <step start='1617788492538' status='passed' stop='1617788492995'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='322bf604-7d0c-4cb6-b41d-fd859e766c1b-attachment.png' type='image/png' size='72500'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>this.getCheckBoxWithIndex(...).waitForDisplayed is not a function</message>
+                <stack-trace>TypeError: this.getCheckBoxWithIndex(...).waitForDisplayed is not a function
+                    at InternetPages.clickOnCheckBoxOptionWithIndex (C:\KrishnaData\WebDriverIO\test\pageobjects\InternetPageObjects.js:19:42)
+                    at Context.&lt;anonymous> (C:\KrishnaData\WebDriverIO\test\specs\InternetPages\clickOnCheckBoxesPages.js:18:18)
+                    at Context.executeSync (C:\KrishnaData\WebDriverIO\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\KrishnaData\WebDriverIO\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

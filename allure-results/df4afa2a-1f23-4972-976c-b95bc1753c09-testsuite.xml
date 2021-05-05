@@ -1,0 +1,85 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1618154808029' stop='1618154812119'>
+    <name>Validating drag and drop functionality</name>
+    <title>Validating drag and drop functionality</title>
+    <test-cases>
+        <test-case start='1618154808031' status='broken' stop='1618154812118'>
+            <name>drag and drop an element to target box</name>
+            <title>drag and drop an element to target box</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps>
+                <step start='1618154808083' status='passed' stop='1618154809911'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='29b26a9c-cf0d-4cce-a907-7c02a788670a-attachment.json' type='application/json' size='36'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1618154809912' status='passed' stop='1618154810151'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='09b93ff8-4525-4929-b456-eacfe741f156-attachment.json' type='application/json' size='59'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1618154810154' status='passed' stop='1618154810276'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='47b4321d-a915-43e2-b7ea-fe300c197b5a-attachment.json' type='application/json' size='50'/>
+                        <attachment title='Response' source='3dfb3f30-bdfc-413f-bc89-ba59d6cf172c-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1618154810292' status='passed' stop='1618154811592'>
+                    <name>POST /session/:sessionId/element/0e493351-824d-4f6a-b243-fc2010e47620/click</name>
+                    <title>POST /session/:sessionId/element/0e493351-824d-4f6a-b243-fc2010e47620/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618154811593' status='broken' stop='1618154812117'>
+                    <name>POST /session/:sessionId/frame</name>
+                    <title>POST /session/:sessionId/frame</title>
+                    <attachments>
+                        <attachment title='Request' source='302f493f-61be-4301-a552-eb0bb6b36ef2-attachment.json' type='application/json' size='13'/>
+                    </attachments>
+                    <steps>
+                        <step start='1618154811639' status='passed' stop='1618154812115'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments>
+                                <attachment title='Screenshot' source='7df16631-0b8e-4c6c-be6f-c1cad8c8fad4-attachment.png' type='image/png' size='178077'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such frame
+                  (Session info: chrome=89.0.4389.114)</message>
+                <stack-trace>no such frame
+                  (Session info: chrome=89.0.4389.114)
+                    at Object.getErrorFromResponseBody (C:\KrishnaData\WebDriverIO\node_modules\webdriver\build\utils.js:189:12)
+                    at WebDriverRequest._request (C:\KrishnaData\WebDriverIO\node_modules\webdriver\build\request.js:168:31)
+                    at processTicksAndRejections (internal/process/task_queues.js:94:5)
+                    at async Browser.runCommandWithHooks (C:\KrishnaData\WebDriverIO\node_modules\@wdio\sync\build\wrapCommand.js:105:25)
+                    at Browser.runCommandWithHooks (C:\KrishnaData\WebDriverIO\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+                    at Browser.wrapCommandFn (C:\KrishnaData\WebDriverIO\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+                    at Context.&lt;anonymous> (C:\KrishnaData\WebDriverIO\test\specs\JQueryUI\DrangAndDrop.js:10:19)
+                    at Context.executeSync (C:\KrishnaData\WebDriverIO\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\KrishnaData\WebDriverIO\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

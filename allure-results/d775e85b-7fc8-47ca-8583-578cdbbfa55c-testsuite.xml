@@ -1,0 +1,106 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1620237372203' stop='1620237379498'>
+    <name>Scenario for Java Script alerts </name>
+    <title>Scenario for Java Script alerts </title>
+    <test-cases>
+        <test-case start='1620237372204' status='broken' stop='1620237379496'>
+            <name>Click on JS Alert</name>
+            <title>Click on JS Alert</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.93'/>
+            </parameters>
+            <steps>
+                <step start='1620237372281' status='passed' stop='1620237375336'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='8dcd022f-452f-4367-9db8-d026fefe98a7-attachment.json' type='application/json' size='50'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1620237375336' status='passed' stop='1620237375510'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='e87401b4-3d6c-4304-86f3-afa3aa83fce8-attachment.json' type='application/json' size='59'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1620237378522' status='passed' stop='1620237378562'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='3f546689-71e2-467c-9644-27d0c140c64e-attachment.json' type='application/json' size='58'/>
+                        <attachment title='Response' source='e95ebd27-6c93-42f5-914c-5fa57847d8c2-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1620237378576' status='passed' stop='1620237378968'>
+                    <name>POST /session/:sessionId/element/3b20fe19-1946-48cc-b0f7-2e39f8e8256f/click</name>
+                    <title>POST /session/:sessionId/element/3b20fe19-1946-48cc-b0f7-2e39f8e8256f/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620237378968' status='passed' stop='1620237379005'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='fde590cd-9d90-4aad-a31d-98a15657d311-attachment.json' type='application/json' size='76'/>
+                        <attachment title='Response' source='36f9a44e-e67e-43ac-9adb-57905e60f5e4-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1620237379014' status='passed' stop='1620237379082'>
+                    <name>POST /session/:sessionId/element/8b0e85ee-1313-4ae2-969b-5fa5853a6f13/click</name>
+                    <title>POST /session/:sessionId/element/8b0e85ee-1313-4ae2-969b-5fa5853a6f13/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620237379082' status='passed' stop='1620237379089'>
+                    <name>POST /session/:sessionId/alert/accept</name>
+                    <title>POST /session/:sessionId/alert/accept</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1620237379091' status='passed' stop='1620237379128'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='4c3c7afd-9e48-4bff-95af-2cbfa5645d05-attachment.json' type='application/json' size='51'/>
+                        <attachment title='Response' source='c2f6e792-4c37-402c-9170-fe91e4fb5331-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1620237379135' status='passed' stop='1620237379182'>
+                    <name>GET /session/:sessionId/element/456f7215-5b87-4b6f-938e-b40d4f064968/text</name>
+                    <title>GET /session/:sessionId/element/456f7215-5b87-4b6f-938e-b40d4f064968/text</title>
+                    <attachments>
+                        <attachment title='Response' source='26a32717-6b7e-4254-ae11-973f972c51a2-attachment.json' type='application/json' size='35'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1620237379185' status='passed' stop='1620237379493'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='6ec304da-5d20-4416-8c6d-92b32cfac37a-attachment.png' type='image/png' size='39581'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Assert is not defined</message>
+                <stack-trace>ReferenceError: Assert is not defined
+                    at Context.&lt;anonymous> (C:\KrishnaData\WebDriverIO\test\specs\InternetPages\ClickOnJavaScriptAlerts.js:15:8)
+                    at Context.executeSync (C:\KrishnaData\WebDriverIO\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\KrishnaData\WebDriverIO\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

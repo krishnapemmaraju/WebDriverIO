@@ -1,0 +1,53 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1618305331453' stop='1618305491675'>
+    <name>Validate the Select By Value option</name>
+    <title>Validate the Select By Value option</title>
+    <test-cases>
+        <test-case start='1618305331454' status='broken' stop='1618305491672'>
+            <name>Select value for the facebook sign up page </name>
+            <title>Select value for the facebook sign up page </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-89.0.4389.114'/>
+            </parameters>
+            <steps>
+                <step start='1618305331665' status='passed' stop='1618305333173'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='6c6b3ba7-bb75-41cd-8fed-d52665d0fac4-attachment.json' type='application/json' size='40'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1618305333174' status='passed' stop='1618305333185'>
+                    <name>DELETE /session/:sessionId/cookie</name>
+                    <title>DELETE /session/:sessionId/cookie</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1618305333185' status='passed' stop='1618305333325'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='9f5905d9-97bc-486d-828b-32aeb04a1532-attachment.json' type='application/json' size='59'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Timeout of 160000ms exceeded. The execution in the test "Validate the Select By Value option Select value for the facebook sign up page " took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\KrishnaData\WebDriverIO\test\specs\FacebookPage\facebookPageSelect.js)</message>
+                <stack-trace>Error: Timeout of 160000ms exceeded. The execution in the test "Validate the Select By Value option Select value for the facebook sign up page " took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\KrishnaData\WebDriverIO\test\specs\FacebookPage\facebookPageSelect.js)
+                    at createTimeoutError (C:\KrishnaData\WebDriverIO\node_modules\@wdio\mocha-framework\node_modules\mocha\lib\errors.js:491:15)
+                    at Test.Runnable._timeoutError (C:\KrishnaData\WebDriverIO\node_modules\@wdio\mocha-framework\node_modules\mocha\lib\runnable.js:431:10)
+                    at Timeout.&lt;anonymous> (C:\KrishnaData\WebDriverIO\node_modules\@wdio\mocha-framework\node_modules\mocha\lib\runnable.js:246:24)
+                    at listOnTimeout (internal/timers.js:531:17)
+                    at processTimers (internal/timers.js:475:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
